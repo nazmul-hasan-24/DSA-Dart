@@ -27,42 +27,60 @@ int familyMember({required final members, required int count}) {
   print(count);
   index = -1;
   return index;
-  
 }
 
-int friends(List<String> friends, String name){
+int friends(List<String> friends, String name) {
   int index;
-  for(index=0; index< friends.length; index++){
-   if(friends[index] == name){
-    return index;
-   }
+  for (index = 0; index < friends.length; index++) {
+    if (friends[index] == name) {
+      return index;
+    }
   }
-  index =-1;
+  index = -1;
   print("He is not in the list $index");
   return index;
 }
 
 void main() {
-List<String> friendsName =["Parvej", "Rimon", "Nabil"];
-String names = 'Rimn';
+  // List<String> friendsName = ["Parvej", "Rimon", "Nabil"];
+  // String names = 'Rimn';
 
+  // print('Pravej index is:${friends(friendsName, names)}');
 
-print('Pravej index is:${friends(friendsName,names)}');
+  // List<int> mathMarks = [33, 72, 10, 88, 60, 89, 63];
 
-//   List<int> mathMarks = [33, 72, 10, 88, 60, 89, 63];
+  // int x = 10;
 
-//   int x = 10;
+  // int result = linearSearch(mathMarks: mathMarks, x: x);
+  // print(result);
 
-//   int result = linearSearch(mathMarks: mathMarks, x: x);
-//   print(result);
+  // List<int> indivisulScore = [280, 400, 240, 153, 303, 500];
+  // int banScore = 03;
+  // final results = circketScore(scores: indivisulScore, n: banScore);
 
-//   List<int> indivisulScore = [280, 400, 240, 153, 303, 500];
-//   int banScore = 03;
-//   final results = circketScore(scores: indivisulScore, n: banScore);
+  // print(results);
+  // final familyMembers = [10, 8, 4, 9, 7, 6, 5, 1, 11, 10];
+  // final myFamily = 4;
+  // // int resul= familyMember(members: familyMembers, count:myFamily );
+  // print(familyMember(members: familyMembers, count: myFamily));
 
-// print(results);
-//   final familyMembers =[10,8,4,9,7,6,5,1,11,10];
-//   final myFamily = 4;
-//   // int resul= familyMember(members: familyMembers, count:myFamily );
-//   print(familyMember(members: familyMembers, count:myFamily ));
+  List<dynamic> students = [
+    'Hasan',
+    1,
+    40,
+    'Sabit',
+    'Sabbir',
+    20,
+  ];
+
+  String find = 'Sabbir';
+
+  for (var result = 0; result < students.length; result++) {
+    print("This is index $result");
+
+    if (students[result] == find) {
+      print("This is result $result");
+      break;
+    }
+  }
 }

@@ -1,0 +1,29 @@
+Search in Array:
+Given an array of integers, find the index of a specific element.
+
+Maximum Element:
+Find the maximum element in an array and its index.
+
+Minimum Element:
+Find the minimum element in an array and its index.
+
+Count Occurrences:
+Count the number of occurrences of a specific element in an array.
+
+First Occurrence:
+Find the index of the first occurrence of a specific element in an array.
+
+Last Occurrence:
+Find the index of the last occurrence of a specific element in an array.
+
+Element Frequency:
+Find the frequency of each element in an array.
+
+Sum of Elements:
+Calculate the sum of all elements in an array.
+
+Average of Elements:
+Calculate the average of all elements in an array.
+
+Element Existence:
+Check if a specific element exists in an array.

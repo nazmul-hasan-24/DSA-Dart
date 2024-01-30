@@ -1,0 +1,30 @@
+# Search an element in a sorted array:
+
+# Given a sorted array arr and a target element target, implement a binary search function to find the index of the target element or -1 if not found.....DONE
+# Find the first and last occurrence of an element in a sorted array:
+
+# Similar to problem 1, but modify the binary search to track both the first and last occurrence of the target element if it exists multiple times.
+# Find the minimum element in a rotated sorted array:
+
+# Given a sorted array that has been rotated some number of times, find the minimum element using binary search.
+# Find the peak element in a mountain array:
+
+# A mountain array increases then decreases. Find the peak element (maximum element) using binary search.
+# Count the occurrences of a number in a sorted array:
+
+# Modify the binary search to count the number of occurrences of a specific element in a sorted array that may contain duplicates.
+# Find the smallest missing element in a sorted array:
+
+# Given a sorted array with some elements missing, find the smallest missing element using binary search.
+# Find the number of rotations in a sorted and rotated array:
+
+# Given a sorted array that has been rotated some number of times, find the number of rotations using binary search.
+# Search an element in a nearly sorted array:
+
+# Given an array that is almost sorted (with only a few inversions), implement a modified binary search to find the target element.
+# Find the closest element to a given value in a sorted array:
+
+# Implement a binary search variation to find the element in a sorted array that is closest to a given target value.
+# Find the first element greater than a given value in a sorted array:
+
+# Modify the binary search to find the first element in a sorted array that is greater than a specific target value.
