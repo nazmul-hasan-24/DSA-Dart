@@ -1,4 +1,4 @@
-void printInts(List<int> a) => print(a);
+void printInts(List<dynamic> a) => print(a);
 
 void main() {
   final list = []; // If I set after = <int> error will be gone
@@ -16,7 +16,7 @@ void main() {
   y = 4.0;
 
   // Inferred as if you wrote <int>[].
-  List<int> listOfInt = [];
+  List<dynamic> listOfInt = [];
 
 // Inferred as if you wrote <double>[3.0].
   var listOfDouble = [3.0];
